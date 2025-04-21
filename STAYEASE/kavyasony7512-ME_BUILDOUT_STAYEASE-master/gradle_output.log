@@ -1,0 +1,85 @@
+Starting a Gradle Daemon, 11 stopped Daemons could not be reused, use --status for details
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+> Task :resolveMainClassName
+
+> Task :bootRun
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2025-04-16T15:36:24.643+05:30  INFO 5543 --- [stayease] [  restartedMain] c.takehome.stayease.StayeaseApplication  : Starting StayeaseApplication using Java 17.0.7 with PID 5543 (/tmp/gradle_builds/stayease/stayease/classes/java/main started by crio-user in /home/crio-user/workspace/kavyasony7512-ME_BUILDOUT_STAYEASE)
+2025-04-16T15:36:24.648+05:30  INFO 5543 --- [stayease] [  restartedMain] c.takehome.stayease.StayeaseApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-04-16T15:36:24.721+05:30  INFO 5543 --- [stayease] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-16T15:36:24.721+05:30  INFO 5543 --- [stayease] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-16T15:36:25.993+05:30  INFO 5543 --- [stayease] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-16T15:36:26.088+05:30  INFO 5543 --- [stayease] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2025-04-16T15:36:27.015+05:30  INFO 5543 --- [stayease] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-04-16T15:36:27.033+05:30  INFO 5543 --- [stayease] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-16T15:36:27.034+05:30  INFO 5543 --- [stayease] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2025-04-16T15:36:27.096+05:30  INFO 5543 --- [stayease] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-16T15:36:27.098+05:30  INFO 5543 --- [stayease] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2374 ms
+2025-04-16T15:36:27.314+05:30  INFO 5543 --- [stayease] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-16T15:36:27.379+05:30  INFO 5543 --- [stayease] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2025-04-16T15:36:27.419+05:30  INFO 5543 --- [stayease] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-16T15:36:27.798+05:30  INFO 5543 --- [stayease] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-16T15:36:27.846+05:30  INFO 5543 --- [stayease] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-16T15:36:28.290+05:30  INFO 5543 --- [stayease] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d665f0a
+2025-04-16T15:36:28.292+05:30  INFO 5543 --- [stayease] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-16T15:36:28.361+05:30  WARN 5543 --- [stayease] [  restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.7.42 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-04-16T15:36:30.077+05:30  INFO 5543 --- [stayease] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-16T15:36:30.175+05:30  INFO 5543 --- [stayease] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-16T15:36:30.821+05:30  INFO 5543 --- [stayease] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-16T15:36:30.823+05:30  WARN 5543 --- [stayease] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2025-04-16T15:36:30.936+05:30  WARN 5543 --- [stayease] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-16T15:36:31.915+05:30  INFO 5543 --- [stayease] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-16T15:36:32.121+05:30  INFO 5543 --- [stayease] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-04-16T15:36:32.149+05:30  INFO 5543 --- [stayease] [  restartedMain] c.takehome.stayease.StayeaseApplication  : Started StayeaseApplication in 8.092 seconds (process running for 8.689)
+2025-04-16T15:36:33.500+05:30  INFO 5543 --- [stayease] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-16T15:36:33.501+05:30  INFO 5543 --- [stayease] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-16T15:36:33.507+05:30  INFO 5543 --- [stayease] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-04-16T15:36:33.697+05:30  INFO 5543 --- [stayease] [nio-8081-exec-1] c.t.stayease.controllers.UserController  : Received registration request for email: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.038+05:30  INFO 5543 --- [stayease] [nio-8081-exec-1] c.t.stayease.services.UserService        : User registered successfully: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.119+05:30  INFO 5543 --- [stayease] [nio-8081-exec-2] c.t.stayease.controllers.UserController  : Received registration request for email: manager.774a62c8-d18d-4fe6-b8c3-8479095b9530@test.com
+2025-04-16T15:36:34.260+05:30  INFO 5543 --- [stayease] [nio-8081-exec-2] c.t.stayease.services.UserService        : User registered successfully: manager.774a62c8-d18d-4fe6-b8c3-8479095b9530@test.com
+2025-04-16T15:36:34.272+05:30  INFO 5543 --- [stayease] [nio-8081-exec-3] c.t.stayease.controllers.UserController  : Received registration request for email: admin.3270eba1-814b-43f4-9eaa-de00d7fd8cc1@test.com
+2025-04-16T15:36:34.418+05:30  INFO 5543 --- [stayease] [nio-8081-exec-3] c.t.stayease.services.UserService        : User registered successfully: admin.3270eba1-814b-43f4-9eaa-de00d7fd8cc1@test.com
+2025-04-16T15:36:34.446+05:30  WARN 5543 --- [stayease] [nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.takehome.stayease.dtos.AuthResponseDTO> com.takehome.stayease.controllers.UserController.registerUser(com.takehome.stayease.dtos.RegisterUserDto): [Field error in object 'registerUserDto' on field 'password': rejected value [weak]; codes [Pattern.registerUserDto.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerUserDto.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@d8e7b6b,^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]).{8,}$]; default message [Password must be at least 8 characters and contain an uppercase letter, a number, and a special character]] ]
+2025-04-16T15:36:34.457+05:30  WARN 5543 --- [stayease] [nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.takehome.stayease.dtos.AuthResponseDTO> com.takehome.stayease.controllers.UserController.registerUser(com.takehome.stayease.dtos.RegisterUserDto): [Field error in object 'registerUserDto' on field 'email': rejected value [invalid-email]; codes [Email.registerUserDto.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerUserDto.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@3595cd11,.*]; default message [Invalid email format]] ]
+2025-04-16T15:36:34.470+05:30  INFO 5543 --- [stayease] [nio-8081-exec-7] c.t.stayease.controllers.UserController  : Received login request for email: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.471+05:30  INFO 5543 --- [stayease] [nio-8081-exec-7] c.t.stayease.services.UserService        : Login attempt for email: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.771+05:30  INFO 5543 --- [stayease] [nio-8081-exec-7] c.t.stayease.services.UserService        : User logged in successfully: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.781+05:30  INFO 5543 --- [stayease] [nio-8081-exec-8] c.t.stayease.controllers.UserController  : Received login request for email: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.781+05:30  INFO 5543 --- [stayease] [nio-8081-exec-8] c.t.stayease.services.UserService        : Login attempt for email: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com
+2025-04-16T15:36:34.919+05:30 ERROR 5543 --- [stayease] [nio-8081-exec-8] c.t.stayease.services.UserService        : Authentication failed for user: customer.c369d549-0a75-445a-8c9b-c49ef5d65b7e@test.com - Bad credentials
+2025-04-16T15:36:34.924+05:30  WARN 5543 --- [stayease] [nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.takehome.stayease.exceptions.ResourceNotFoundException: Invalid email or password]
+2025-04-16T15:36:34.933+05:30  INFO 5543 --- [stayease] [nio-8081-exec-1] c.t.s.controllers.HotelController        : Fetching all hotels
+[ADMIN]
+[HOTEL_MANAGER]
+[HOTEL_MANAGER]
+2025-04-16T15:36:35.147+05:30  INFO 5543 --- [stayease] [nio-8081-exec-7] c.t.s.controllers.HotelController        : Updating hotel with id: 34
+[ADMIN]
+2025-04-16T15:36:35.196+05:30  INFO 5543 --- [stayease] [nio-8081-exec-9] c.t.s.controllers.HotelController        : Deleting hotel with id: 34
+2025-04-16T15:36:35.211+05:30  INFO 5543 --- [stayease] [nio-8081-exec-9] c.t.stayease.services.HotelService       : Hotel deleted successfully: Updated Hotel Name
+[HOTEL_MANAGER]
+[ADMIN]
+[USER]
+2025-04-16T15:36:35.295+05:30  INFO 5543 --- [stayease] [nio-8081-exec-2] c.t.s.controllers.BookingController      : Creating booking for hotel id: 35
+2025-04-16T15:36:35.312+05:30  INFO 5543 --- [stayease] [nio-8081-exec-2] c.t.stayease.services.BookingService     : Booking created successfully: 16
+[USER]
+2025-04-16T15:36:35.339+05:30  INFO 5543 --- [stayease] [nio-8081-exec-5] c.t.s.controllers.BookingController      : Creating booking for hotel id: 35
+2025-04-16T15:36:35.350+05:30  WARN 5543 --- [stayease] [nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.takehome.stayease.exceptions.ResourceNotFoundException: No rooms available for booking]
+[USER]
+2025-04-16T15:36:35.368+05:30  INFO 5543 --- [stayease] [nio-8081-exec-9] c.t.s.controllers.BookingController      : Fetching booking with id: 16
+[HOTEL_MANAGER]
+2025-04-16T15:36:35.395+05:30  INFO 5543 --- [stayease] [io-8081-exec-10] c.t.s.controllers.BookingController      : Cancelling booking with id: 16
+2025-04-16T15:36:35.401+05:30  INFO 5543 --- [stayease] [io-8081-exec-10] c.t.stayease.services.BookingService     : Booking cancelled successfully: 16
+[USER]
+2025-04-16T15:36:35.425+05:30  WARN 5543 --- [stayease] [nio-8081-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
